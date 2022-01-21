@@ -1,2 +1,3 @@
 # test_repo
-# testing about how to use git
+
+Repo for testing how to use git
