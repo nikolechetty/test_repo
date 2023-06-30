@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nikole-awesome"
+version = "0.1.0"
+description = ""
+authors = ["Nikole Chetty <nchetty@andrew.cmu.edu>"]
+readme = "README.md"
+packages = [{include = "nikole_awesome"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.25.0"
+watchdog = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
